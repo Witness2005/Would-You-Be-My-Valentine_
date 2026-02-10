@@ -11,7 +11,7 @@ class App(ctk.CTk):
         super().__init__()
         #Columnas
         self.grid_columnconfigure(0, weight=1)
-        self.grid_columnconfigure(1, weight=0)
+        self.grid_columnconfigure(1, weight=1)
         self.grid_columnconfigure(2, weight=1)
         #Columnas
         self.grid_rowconfigure(0, weight=1)
@@ -23,7 +23,7 @@ class App(ctk.CTk):
 
 
         self.label = ctk.CTkLabel(self, text="¿Quieres ser mi San Valentin?", font=("Arial", 20))
-        self.label.grid(row=0, column=1, padx=10, pady=10)
+        self.label.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
         self.yes_button = ctk.CTkButton(self, text="Siiii", command=self.button_callback)
         self.yes_button.grid(row=1, column=0, padx=10, pady=10)
