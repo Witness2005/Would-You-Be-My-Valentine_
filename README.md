@@ -21,11 +21,5 @@ To run this project, ensure you have Python installed along with the required li
 pip install customtkinter
 
 ```
-## 📂 Project Structure
-.
-├── main.py          # Main source code
-├── yesCase.mp4      # Video that plays upon acceptance
-└── noCase.mp4       # Video that plays upon rejection
-
 ## 📜 License
 This project is open-source. Feel free to use it to spread some love!
