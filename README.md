@@ -11,6 +11,9 @@ This is a charming and well-structured project developed in **Python** using the
 * **Ready for Bundling:** Includes a `resource_path` utility designed to handle file paths correctly even after compiling the script into an executable (`.exe` or binary) via PyInstaller.
 * **Custom Theme:** Pre-configured with a romantic color palette (`#FFC0CB`) suitable for the occasion.
 
+  <img width="401" height="266" alt="image" src="https://github.com/user-attachments/assets/422eac91-981c-4efa-83af-bb500ecd9030" />
+
+
 ---
 
 ## 🛠️ Prerequisites
